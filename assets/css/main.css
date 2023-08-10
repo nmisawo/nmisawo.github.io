@@ -2933,8 +2933,8 @@ input, select, textarea {
 						#header .logo .tagline {
 							text-transform: capitalize; /* Makes the first letter of each word uppercase */
 							font-size: 17px; /* You can adjust this value to match your design */
-							display: block;
-							/* Add any other styling you desire */
+							display: flex;
+							vertical-align: middle;
 						}
 
 		#header nav {
