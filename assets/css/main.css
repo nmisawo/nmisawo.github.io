@@ -2857,7 +2857,7 @@ input, select, textarea {
 /* Header */
 
 	#header {
-		padding: 5em 0 0.1em 0 ;
+		padding: 2em 0 0.1em 0 ;
 	}
 
 		#header .logo {
@@ -2883,7 +2883,7 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 5em;
+					width: 7em;
 					height: auto;
 				}
 
