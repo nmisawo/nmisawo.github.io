@@ -2735,16 +2735,12 @@ input, select, textarea {
 			}
 
 			.tiles article.style2 > .image:before {
-				background-color: #FFC300;
+				background-image: url('images/data_eng.jpg');
 			}
 
 			.tiles article.style4 > .image:before {
 				background-image: url('images/data_viz.jpg');
 			}
-
-			/* .tiles article.style4 > .image:before {
-				background-color: #6A8EAE;
-			} */
 
 			.tiles article.style5 > .image:before {
 				background-color: #8CB369;
