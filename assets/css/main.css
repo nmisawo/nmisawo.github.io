@@ -2928,8 +2928,8 @@ input, select, textarea {
 					/* #header .logo .text-content {
 						display: flex;
 						vertical-align: middle;
-						/* justify-content: left; Center-aligns vertically */
-					} */
+						 justify-content: left; Center-aligns vertically 
+					}*/ 
 						#header .logo .tagline {
 							text-transform: capitalize; /* Makes the first letter of each word uppercase */
 							font-size: 17px; /* You can adjust this value to match your design */
