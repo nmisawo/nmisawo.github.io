@@ -2932,6 +2932,7 @@ input, select, textarea {
 							font-size: 1em; /* You can adjust this value to match your design */
 							color:aquamarine;
 							vertical-align: middle;
+							letter-spacing:normal;
 						}
 
 		#header nav {
