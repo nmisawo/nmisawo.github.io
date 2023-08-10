@@ -2910,15 +2910,6 @@ input, select, textarea {
 			text-transform: uppercase;
 		}
 
-		#header .logo .tagline {
-			text-transform: capitalize; /* Makes the first letter of each word uppercase */
-			font-size: 16px; /* You can adjust this value to match your design */
-			display: inline-block; /* Makes the tagline appear on a new line */
-			vertical-align: middle;
-			
-			/* Add any other styling you desire */
-		}
-
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
@@ -2930,10 +2921,15 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 7em;
+					width: 10em;
 					height: auto;
 				}
+					#header .logo .tagline {
+						text-transform: capitalize; /* Makes the first letter of each word uppercase */
+						font-size: 16px; /* You can adjust this value to match your design */
 
+						/* Add any other styling you desire */
+					}
 
 		#header nav {
 			position: fixed;
