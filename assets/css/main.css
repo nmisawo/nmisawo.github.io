@@ -2926,8 +2926,8 @@ input, select, textarea {
 					height: auto;
 				}
 					#header .logo .text-content {
-						display: inline-block;
-						justify-content: left; /* Center-aligns vertically */
+						display: block;
+						/* justify-content: left; Center-aligns vertically */
 					}
 						#header .logo .tagline {
 							text-transform: capitalize; /* Makes the first letter of each word uppercase */
