@@ -2603,7 +2603,7 @@ input, select, textarea {
 					width: 100%;
 				}
 
-				/* .tiles article > .image:before {
+				.tiles article > .image:before {
 					pointer-events: none;
 					-moz-transition: background-color 0.5s ease, opacity 0.5s ease;
 					-webkit-transition: background-color 0.5s ease, opacity 0.5s ease;
@@ -2619,7 +2619,7 @@ input, select, textarea {
 					opacity: 1.0;
 					z-index: 1;
 					opacity: 0.8;
-				} */
+				}
 /* 
 				.tiles article > .image:after {
 					pointer-events: none;
