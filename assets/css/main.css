@@ -2873,7 +2873,7 @@ input, select, textarea {
 			display: inline-block;
 		}
 
-		#header.logo .tagline {
+		#header .logo .tagline {
 			text-transform: capitalize;
 			font-size: 14px;
 			display: block;
