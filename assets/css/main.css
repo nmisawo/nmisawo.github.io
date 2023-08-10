@@ -2914,7 +2914,7 @@ input, select, textarea {
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
-				flex-direction: column;
+				
 			}
 
 			#header .logo .symbol {
@@ -2926,15 +2926,10 @@ input, select, textarea {
 					width: 10em;
 					height: auto;
 				}
-					/* #header .logo .text-content {
-						display: flex;
-						vertical-align: middle;
-						 justify-content: left; Center-aligns vertically 
-					}*/ 
+
 						#header .logo .tagline {
 							text-transform: capitalize; /* Makes the first letter of each word uppercase */
-							font-size: 30px; /* You can adjust this value to match your design */
-							display: inline-flex;
+							font-size: 14px; /* You can adjust this value to match your design */
 							vertical-align: middle;
 						}
 
