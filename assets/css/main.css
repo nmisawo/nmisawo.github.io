@@ -2686,6 +2686,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a h2 {
+					text-shadow: 2px 2px 5px #000;
 					margin: 0;
 				}
 
@@ -2699,6 +2700,7 @@ input, select, textarea {
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
+					text-shadow: 2px 2px 5px #000;
 				}
 
 					.tiles article > a .content > :last-child {
