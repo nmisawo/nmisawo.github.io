@@ -2876,7 +2876,7 @@ input, select, textarea {
 		#header.logo .tagline {
 			text-transform: capitalize;
 			font-size: 14px;
-			/* display: block; */
+			display: block;
 		}
 
 			#header .logo > * {
