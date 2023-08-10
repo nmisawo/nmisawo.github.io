@@ -2900,7 +2900,8 @@ input, select, textarea {
 	}
 
 		#header .logo {
-			display: block;
+			/* display: block; */
+			display: flex;
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
@@ -2924,12 +2925,17 @@ input, select, textarea {
 					width: 10em;
 					height: auto;
 				}
-					#header .logo .tagline {
-						text-transform: capitalize; /* Makes the first letter of each word uppercase */
-						font-size: 16px; /* You can adjust this value to match your design */
-
-						/* Add any other styling you desire */
+					#header .logo .text-content {
+						display: flex;
+						flex-direction: column; /* Stacks the title and tagline */
+						justify-content: center; /* Center-aligns vertically */
 					}
+						#header .logo .tagline {
+							text-transform: capitalize; /* Makes the first letter of each word uppercase */
+							font-size: 16px; /* You can adjust this value to match your design */
+
+							/* Add any other styling you desire */
+						}
 
 		#header nav {
 			position: fixed;
