@@ -2926,9 +2926,8 @@ input, select, textarea {
 					height: auto;
 				}
 					#header .logo .text-content {
-						display: flex;
-						flex-direction: row; /* Stacks the title and tagline */
-						justify-content: center; /* Center-aligns vertically */
+						display: inline-block;
+						justify-content: left; /* Center-aligns vertically */
 					}
 						#header .logo .tagline {
 							text-transform: capitalize; /* Makes the first letter of each word uppercase */
