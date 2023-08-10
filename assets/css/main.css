@@ -2900,8 +2900,8 @@ input, select, textarea {
 	}
 
 		#header .logo {
-			/* display: block; */
-			display: flex;
+			display: block;
+			/* display: flex; */
 			border-bottom: 0;
 			color: inherit;
 			font-weight: 900;
@@ -2925,11 +2925,11 @@ input, select, textarea {
 					width: 10em;
 					height: auto;
 				}
-					#header .logo .text-content {
+					/* #header .logo .text-content {
 						display: flex;
 						vertical-align: middle;
 						/* justify-content: left; Center-aligns vertically */
-					}
+					} */
 						#header .logo .tagline {
 							text-transform: capitalize; /* Makes the first letter of each word uppercase */
 							font-size: 17px; /* You can adjust this value to match your design */
