@@ -2887,6 +2887,13 @@ input, select, textarea {
 					height: auto;
 				}
 
+				#header.logo .tagline {
+					text-transform: capitalize;
+					font-size: 14px;
+					display: block;
+				}
+
+
 		#header nav {
 			position: fixed;
 			right: 2em;
