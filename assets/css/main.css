@@ -2914,6 +2914,7 @@ input, select, textarea {
 			#header .logo > * {
 				display: inline-block;
 				vertical-align: middle;
+				flex-direction: column;
 			}
 
 			#header .logo .symbol {
