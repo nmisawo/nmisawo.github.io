@@ -2930,6 +2930,7 @@ input, select, textarea {
 						#header .logo .tagline {
 							text-transform: capitalize; /* Makes the first letter of each word uppercase */
 							font-size: 1em; /* You can adjust this value to match your design */
+							color:aquamarine;
 							vertical-align: middle;
 						}
 
