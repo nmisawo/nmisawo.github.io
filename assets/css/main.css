@@ -2912,8 +2912,8 @@ input, select, textarea {
 
 		#header .logo .tagline {
 			text-transform: capitalize; /* Makes the first letter of each word uppercase */
-			font-size: 14px; /* You can adjust this value to match your design */
-			display: block; /* Makes the tagline appear on a new line */
+			font-size: 16px; /* You can adjust this value to match your design */
+			display: inline-block; /* Makes the tagline appear on a new line */
 			/* Add any other styling you desire */
 		}
 
