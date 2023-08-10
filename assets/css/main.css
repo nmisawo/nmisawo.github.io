@@ -2926,7 +2926,8 @@ input, select, textarea {
 					height: auto;
 				}
 					#header .logo .text-content {
-						display: block;
+						display: flex;
+						vertical-align: middle;
 						/* justify-content: left; Center-aligns vertically */
 					}
 						#header .logo .tagline {
