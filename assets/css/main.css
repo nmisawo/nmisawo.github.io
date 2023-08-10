@@ -2705,7 +2705,7 @@ input, select, textarea {
 						margin-bottom: 0;
 					}
 
-			.tiles article.style1 > .image:before {
+			/* .tiles article.style1 > .image:before {
 				background-color: #f2849e;
 			}
 
@@ -2727,7 +2727,34 @@ input, select, textarea {
 
 			.tiles article.style6 > .image:before {
 				background-color: #8499e7;
+			} */
+
+			/* different set of colors. to revert back to the original colors refer to the above script */
+			.tiles article.style1 > .image:before {
+				background-color: #FF6B6B;
 			}
+
+			.tiles article.style2 > .image:before {
+				background-color: #FFC300;
+			}
+
+			.tiles article.style3 > .image:before {
+				background-color: #23C4C4;
+			}
+
+			.tiles article.style4 > .image:before {
+				background-color: #6A8EAE;
+			}
+
+			.tiles article.style5 > .image:before {
+				background-color: #8CB369;
+			}
+
+			.tiles article.style6 > .image:before {
+				background-color: #FF914D;
+			}
+
+
 
 			body:not(.is-touch) .tiles article:hover > .image {
 				-moz-transform: scale(1.1);
