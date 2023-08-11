@@ -2770,12 +2770,12 @@ input, select, textarea {
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
-					opacity: 0;
+					opacity: 0.35;
 				}
 
 			body:not(.is-touch) .tiles article:hover .content {
 				max-height: 15em;
-				opacity: 1;
+				opacity: .35;
 			}
 
 		* + .tiles {
