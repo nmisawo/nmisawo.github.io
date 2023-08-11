@@ -2754,6 +2754,8 @@ input, select, textarea {
 
 			.tiles article.style3 > .image:before {
 				background-image: url('images/research.png');
+				box-shadow:0 0 0 5px #333333; /*This creates a 5px black border*/
+				display:inline-block; /* This ensures the box-shadow gets applied*/
 			}
 
 
@@ -2766,7 +2768,7 @@ input, select, textarea {
 
 				body:not(.is-touch) .tiles article:hover > .image:before {
 					background-color: #333333;
-					opacity: 0;
+					opacity: 0; /* REMEMBER TO RETURN THE OPACITY TO 0.35*/
 				}
 
 				body:not(.is-touch) .tiles article:hover > .image:after {
