@@ -2686,7 +2686,7 @@ input, select, textarea {
 				}
 
 				.tiles article > a h2 {
-					background-color: rgba(0, 0, 0, 0.35);
+					background-color: rgba(0, 0, 0, 0.45);
 					margin: 0;
 				}
 
@@ -2700,7 +2700,7 @@ input, select, textarea {
 					line-height: 1.5;
 					margin-top: 0.35em;
 					opacity: 0;
-					background-color: rgba(0, 0, 0, 0.35);
+					background-color: rgba(0, 0, 0, 0.45);
 				}
 
 					.tiles article > a .content > :last-child {
